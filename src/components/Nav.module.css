@@ -1,0 +1,22 @@
+.menubar {
+    background-color: #3c3e44;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding:10px;
+
+}
+
+
+.colorspan{
+  color: white;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 20px;
+}
+
+
+.tamano {
+  width: 300px;  
+}

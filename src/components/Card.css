@@ -1,0 +1,27 @@
+.card {
+  margin: 20px;
+  width: 18rem;
+  background-size: cover;
+}
+
+.card-title {
+  margin-bottom: 15px;
+  font-size: 28px;
+  -webkit-text-stroke: 1.2px black;
+  color: white;
+}
+
+#closeIcon {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
+.card-body {
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+  font-size: 22px;
+  -webkit-text-stroke: 1.5px black;
+  color: white;
+}
