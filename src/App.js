@@ -12,7 +12,7 @@ function App(){
 
 
   function onSearch(ciudad) {
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${'9ec47a8150e44e6385aae05be36f9e11'}`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${'9ec47a8150e44e6385aae05be36f9e11'}`)
       .then(r => r.json())
       .then((recurso) => {
         if(recurso.main !== undefined){
